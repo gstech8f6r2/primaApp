@@ -8,4 +8,9 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'primaApp app Workss!';
   prova = 'ProVaaaaaaaaaaa';
+
+  counter=0;
+  increment(){
+    this.counter++;
+  }
 }
