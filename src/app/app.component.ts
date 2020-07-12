@@ -9,8 +9,11 @@ export class AppComponent {
   title = 'primaApp app Workss!';
   prova = 'ProVaaaaaaaaaaa';
 
-  counter=0;
+  counter:number =0;
   increment(){
     this.counter++;
+  }
+  decrement(){
+    this.counter--;
   }
 }
