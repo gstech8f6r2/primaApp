@@ -16,4 +16,15 @@ export class AppComponent {
   decrement(){
     this.counter--;
   }
+
+  myText:string= "  Finche la Barca Va..";
+
+  addText(){
+    this.myText += " ..Lasciala andare";
+  }
+
+  resetText(){
+    this.myText="  Finche la Barca Va..";
+  }
+
 }
